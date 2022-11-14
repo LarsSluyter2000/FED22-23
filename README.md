@@ -12,17 +12,17 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
 ## Jij
 
-<details>
+<details open>
   <summary>uitwerken voor kick-off werkgroep</summary>
 
   ### Auteur:
-  Jordy van Wetering
+  Lars Sluyter
 
   #### Je startniveau:
-  Rood
+  Blauw
 
   #### Je focus:
-  Surface Plane
+  Surface plane
  
 </details>
 
@@ -32,17 +32,19 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
 ## Je website
 
-<details>
+<details open>
   <summary>uitwerken voor kick-off werkgroep</summary>
 
   ### Je opdracht:
-  [Airbbnb](https://www.airbnb.nl)
-  
-  #### Airbnb home pagina: 
-  <img src="readme-images/airbnb-home.png" width="375px" alt="Home pagina van Airbnb">
-  
-  #### Airbnb pagina van een bungalow: 
-  <img src="readme-images/airbnb-bungalow.png" width="375px" alt="Pagina van een bungalow">
+  https://www.baskets-store.com/nl/?gclid=CjwKCAiA68ebBhB-EiwALVC-Nmh6G0AQpDKcQ6dmLHkPzfOba8V4tFdxcAtVOBEBQaps8hFP5_k8YhoCleQQAvD_BwE
+
+  #### Screenshot(s) van de eerste pagina (small screen): 
+  Homepage
+  <img src="readme-images/homepage1.jpg" width="375px" alt="omschrijving van de pagina">
+  <img src="readme-images/homepage2.jpg" width="375px" alt="omschrijving van de pagina">
+  #### Screenshot(s) van de tweede pagina (small screen):
+  Detailpagina
+  <img src="readme-images/detailpagina.jpg" width="375px" alt="omschrijving van de pagina">
  
 </details>
 
@@ -115,10 +117,10 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Agenda voor meeting
   samen met je groepje opstellen
 
-  | idelene        | student 2          | student 3    | student 4        |
+  | student 1      | student 2          | student 3    | student 4        |
   | ---            | ---                | ---          | ---              |
-  | vraag over dit | en dit             | en ik dit    | en dan ik dat    |
-  | en over dat    | dit als er tijd is | nog een punt | dit wil ik zeker |
+  | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
+  | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
   | ...            | ...                | ...          | ...              |
 
 
@@ -138,7 +140,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
 ## Voortgang 2 (week 3)
 
-<details open>
+<details>
   <summary>uitwerken voor 2e voortgang</summary>
 
   ### Stand van zaken
