@@ -16,13 +16,13 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor kick-off werkgroep</summary>
 
   ### Auteur:
-  Jordy van Wetering
+  Lars Sluyter
 
   #### Je startniveau:
-  Rood
+  Blauw
 
   #### Je focus:
-  Surface Plane
+  Surface plane
  
 </details>
 
