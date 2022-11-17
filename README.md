@@ -59,21 +59,15 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   Lijst met je bevindingen die in de test naar voren kwamen:
 
   #### Screenreader
-  Hier korte omschrijving (met indien nodig afbeeldingen)
-
-  Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
+Tijdens het testen van de screenreader kwamen er enkele probelem voor, het werkt niet helemaal als gehoopt. De reader slaat automatisch door naar het hamburgermenu, alleen is deze niet uitgeklapt. Dus verwarring voor de gebruiker.
 
 
   #### Muis en Toetsenbord 
-  Hier korte omschrijving (met indien nodig afbeeldingen)
-
-  Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
+De website is niet toesenboord vriendelijk. Dit komt omdat het niet beschikt over een TAB functie.
 
 
   #### Motoriek (shocks, elastiekjes)
-  Hier korte omschrijving (met indien nodig afbeeldingen)
-
-  Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
+Met verwarring/verandering in mijn motoriek dmv de schrokband en/of de andere motorische afleidingen merk ik dat het niet een groot probleem voor mijzelf is. De pagina is toegangbaar en gebruikbaar.
 
 
   #### Visueel (brillen, contrast, kleurenblind, dark/light). 
