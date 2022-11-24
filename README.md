@@ -111,13 +111,40 @@ Met verwarring/verandering in mijn motoriek dmv de schrokband en/of de andere mo
   ### Agenda voor meeting
   samen met je groepje opstellen
 
-  | student 1      | student 2          | student 3    | student 4        |
+  | Lars Sluyter    | nikki okker       | Jordy    | student 4        |
   | ---            | ---                | ---          | ---              |
-  | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-  | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-  | ...            | ...                | ...          | ...              |
+  Voortgang van ons groepje,
+  elkaars werk voor inspiratie,
+  Typografie hierachie,
+  toegankelijkheid,
+  Css assesntials en
+  Java script "truckjes"
+- Homepage:
++ Hoe kan ik de home pagina aanzienlijker maken voor de gebruiker
++ Kan ik audio en video gebruiker bij mijn pagina 
++ Werken pop ups in het nadeel of voordeel van mijn site 
 
+| nikki okker  
+Pagina 1:
+Is mijn HTML semantisch correct? Want dat is de basis. Als dat goed staat kan ik aan de slag. 
 
+Hamburger menu: hoe zit dat?, alle content van index.html moet ik alles wat in een article staat apart stylen?
+
+De categorieën: hoe kan ik die beste vormgeven? Ook op deze manier, moet dta dan ook in een grid? En die zoekbalk ook? En hoe maak ik die zoekbalk?
+
+Footer: hoe kan ik footer van Kukuru namaken met name de opzet ervan. Html heb ik al. Het naast elkaar zetten is de vraag. 
+
+Pagina 2:
+
+- Mag de class op de body, vanwege andere content styling met nth-of-type?
+
+- hoe kan ik zo’n MP3 afspeler erin zetten? Zoals op kukuru website. 
+
+- hoe krijg ik net als bij kukuru website de boeken naast elkaar? Positioneren? Of flexbox? Of ??
+
+| Jordy 
+
+Alleen een vraag of mijn carousel, voor de rest gaat het wel goed.
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
 
