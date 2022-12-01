@@ -148,10 +148,11 @@ Alleen een vraag of mijn carousel, voor de rest gaat het wel goed.
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
 
-  - punt 1
-  - punt 2
-  - nog een punt
-  - ...
+  Het was een erg productieve meeting:
+  - Ik heb hulp gekregen bij het HTML.
+  - Geholpen met een begin van mijn CSS.
+  - Inspiratie op gedaan bij mijn klasgenoten.
+
 
 </details>
 
@@ -171,13 +172,18 @@ Alleen een vraag of mijn carousel, voor de rest gaat het wel goed.
   ### Agenda voor meeting
   samen met je groepje opstellen
 
-  | student 1      | student 2          | student 3    | student 4        |
-  | ---            | ---                | ---          | ---              |
-  | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-  | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-  | ...            | ...                | ...          | ...              |
+  Lars Sluyter
+  
+  Ik wil het hebben over het maken van een header en het stijlen van een burger menu. Of je een hele footer moet maken, over het stijlen van een formulier en grid op foto's plaatsen.
 
+  Nikki Okker
 
+  Ik wil graag focussen op het positioneren van mijn tweede pagina en daarna nog tip voor stijlen van mijn eerste pagina. En ik wil een audio player op mn site maar ik snap niet hoe dat werkt :) Dus daar ga ik ook naar vragen.
+
+  Jordy
+
+  Ik wil graag mijn caroussel bespreken, possitioning en inlining.
+  
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
 
