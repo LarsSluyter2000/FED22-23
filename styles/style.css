@@ -42,6 +42,7 @@ summary {
 /* JOUW STYLING */
 /****************/
 
+
 /* Header */
 header {
   display: flex;
@@ -53,6 +54,15 @@ header {
 
 h1 {
   margin: 0;
+}
+.screenreader{
+  clip: rect(0 0 0 0); 
+	clip-path: inset(50%);
+	height: 1px;
+	overflow: hidden;
+	position:absolute;
+	white-space: nowrap;
+	width: 1px;
 }
 
 h2 {
@@ -125,15 +135,12 @@ header nav ul:nth-of-type(2) li:nth-of-type(3) p {
   font-size: 1em;
   margin-top: 0.15em;
 }
-
+/* Transparante terug klik */
 header div {
   position: fixed;
   inset: 0;
   background-color: rgb(102 102 102 / .7);
-
   opacity: 0;
-
-  /* de div luistert niet naar kliks*/
   pointer-events: none;
   transition: .5s;
 }
@@ -196,11 +203,11 @@ section:nth-of-type(2) img {
 section:nth-of-type(3) {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: center;
 }
 
 section:nth-of-type(3) article {
-  margin: 5em;
+  margin: 1em;
 }
 
 section:nth-of-type(3) article h3 {
@@ -217,23 +224,27 @@ section:nth-of-type(3) article p {
 /* weekly inspiration Section 4 */
 section:nth-of-type(4) {
   display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100vw;
   height: 32em;
 }
 
 section:nth-of-type(4) img {
   width: 30em;
   height: 100%;
+  margin-right: 2em;
   object-fit: cover;
 }
 
 section:nth-of-type(4) ul {
   overflow-y: scroll;
+  max-width: 30em;
   overscroll-behavior-y: contain;
-  flex-grow: 1;
   margin: 0;
   padding: 0;
   list-style: none;
-  background-color: khaki;
+ 
 }
 
 section:nth-of-type(4) ul li {}
@@ -249,30 +260,41 @@ section:nth-of-type(4) ul li a {
 
 section:nth-of-type(4) ul li a h3 {
   margin: 0;
+  color: #000;
 }
 
 section:nth-of-type(4) ul li a p:nth-of-type(1) {
   margin: 0;
+  color: #000;
 }
 
 section:nth-of-type(4) ul li a p:nth-of-type(2) {
   margin: 0;
+  color: #000;
 }
 
 section:nth-of-type(4) ul li a::after {
   content: "Bekijk meer";
+  
+  
 
   display: block;
-  background-color: red;
+  background-color: rgb(0, 0, 0);
   color: white;
-  border-radius: .5em;
+  
 
 
   margin-top: 1em;
-  padding: 1em;
+  padding: 1em 3em 1em 3em;
+
+  
 
   justify-self: start;
   align-self: start;
+}
+
+::after{
+  text-align: center;
 }
 
 section:nth-of-type(4) ul li a img {
@@ -291,19 +313,19 @@ section:nth-of-type(5) {
 }
 
 section:nth-of-type(5) article img {
-  width: 18em;
+  width: 22em;
   justify-content: space-between;
   margin: 0.75em;
 }
 
 section:nth-of-type(5) article h3 {
-  font-size: 0.75em;
+  font-size: 0.95em;
   margin: 0.75em;
   margin-bottom: 0;
 }
 
 section:nth-of-type(5) article p {
-  font-size: 0.75em;
+  font-size: 0.85em;
   margin: 0.75em;
   margin-top: 0;
 }
@@ -398,7 +420,7 @@ article:nth-of-type(2) img {
 
 .caroCarrousel>ul li div {
   position: absolute;
-  top: 3em;
+  top: 9em;
   right: 5em;
   left: 4em;
 }
@@ -406,7 +428,7 @@ article:nth-of-type(2) img {
 .caroCarrousel>ul li div h2 {
   font-family: neue-haas-grotesk-display, sans-serif;
   background-color: #FFFFFF;
-  font-size: 2em;
+  font-size: 2.5em;
   margin-bottom: 0;
   padding: 0.2em;
   width: 13em;
@@ -442,7 +464,7 @@ article:nth-of-type(2) img {
 .caroCarrousel>ul li>img {
   display: block;
   width: 100%;
-  height: 20em;
+  height: 35em;
   object-fit: cover;
 
 }
@@ -636,4 +658,17 @@ body {
 
 .caroCarrouselFixedWidthElements>nav a.current {
   background-color: currentColor;
+}
+
+@media (max-width:500px) {
+  section:nth-of-type(3) {
+    flex-direction: column;
+  }
+
+  section:nth-of-type(4) {
+    flex-direction: column;
+  }
+  section:nth-of-type(4) ul{
+    height: 20em;
+  }
 }

@@ -204,7 +204,14 @@ Alleen een vraag of mijn carousel, voor de rest gaat het wel goed.
   <summary>uitwerken na test in 8e werkgroep</summary>
 
   ### Bevindingen
-  Lijst met je bevindingen die in de test naar voren kwamen (geef ook aan wat er verbeterd is):
+  - Er is geen darkmode, dit geld voor het orgineel en voor mijn eigenpagina. Ruimte voor verbetering!
+  - Beterft belemmering van kleur is er geen probleem bij mijn webpagina. Links zijn duidelijk en goed te zien. Foto's vallen niet weg.
+  - Het is mogelijk om te tabben door de website, Alleen is er nogsteeds het probleem van het tabben door het hamburger menu terwijl je dit niet ziet.
+  Er is een duidelijke state om te zien waar de gebruiker naartoe tabt in vergelijking tot de orginele website. 
+  - De screenreader leest de webpagina goed op, maar ik vindt nog een enkel problemem in het navigeren:
+  = Er is nog niet goed gebruik gemaakt van ALT en logische rederneringen.
+  - parkison werkt wel goed op de website, alleen niet op de hoogste stand.
+  - de brillen werken allemaal opzich wel, behalve als je het hele zicht verwijderd.
 
   #### Screenreader
   Hier korte omschrijving (met indien nodig afbeeldingen)
