@@ -85,13 +85,10 @@ Met verwarring/verandering in mijn motoriek dmv de schrokband en/of de andere mo
   <summary>uitwerken na afloop 2e werkgroep</summary>
 
   ### de hele pagina: 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van de hele pagina">
+  <img src="readme-images/homepage1.png" width="375px" alt="breakdown van de hele pagina">
 
   ### dynamisch deel (bijv menu): 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van een dynamisch deel">
-
-  ### wellicht nog een dynamisch deel (bijv filter): 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van nog een dynamisch deel">
+  <img src="readme-images/homepage2.png" width="375px" alt="breakdown van een dynamisch deel">
 
 </details>
 
@@ -214,27 +211,20 @@ Alleen een vraag of mijn carousel, voor de rest gaat het wel goed.
   - de brillen werken allemaal opzich wel, behalve als je het hele zicht verwijderd.
 
   #### Screenreader
-  Hier korte omschrijving (met indien nodig afbeeldingen)
-
-  Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
-
+ - Er is geen darkmode, dit geld voor het orgineel en voor mijn eigenpagina. Ruimte voor verbetering!
+  - Beterft belemmering van kleur is er geen probleem bij mijn webpagina. Links zijn duidelijk en goed te zien. Foto's vallen niet weg.
+ <img src="readme-images/darkmode.png" width="375px" alt="breakdown van de hele pagina">
 
   #### Muis en Toetsenbord 
-  Hier korte omschrijving (met indien nodig afbeeldingen)
-
-  Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
-
+ - Het is mogelijk om te tabben door de website, Alleen is er nogsteeds het probleem van het tabben door het hamburger menu terwijl je dit niet ziet.
+  - Er is een duidelijke state om te zien waar de gebruiker naartoe tabt in vergelijking tot de orginele website. 
+<img src="readme-images/tab.png" width="375px" alt="breakdown van de hele pagina">
 
   #### Motoriek (shocks, elastiekjes)
-  Hier korte omschrijving (met indien nodig afbeeldingen)
-
-  Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
-
+  NVT
 
   #### Visueel (brillen, contrast, kleurenblind, dark/light). 
-  Hier korte omschrijving (met indien nodig afbeeldingen)
-
-  Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
+  NVT
 
 </details>
 
@@ -254,20 +244,30 @@ Alleen een vraag of mijn carousel, voor de rest gaat het wel goed.
   ### Agenda voor meeting
   samen met je groepje opstellen
 
-  | student 1      | student 2          | student 3    | student 4        |
-  | ---            | ---                | ---          | ---              |
-  | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-  | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-  | ...            | ...                | ...          | ...              |
+Lars 
+- (Navigatie balk) Hamburger menu op mobile 
+- Scroll sections 
 
+Jordy: 
+menu knoppen fixen
+Hartje over plaatje zetten
+
+Menno: 
+- Form groter maken
+- Text in plaatjes automatisch laten inspringen
+- Random ruimte weghalen en naar rechts scrollen weghalen
+- Alle sections responsive maken met zelfde margin links rechts
+
+Nikki: 
+- Media player fixen
+- ruimte tussen buttons van social media
 
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
 
-  - punt 1
-  - punt 2
-  - nog een punt
-  - ...
+  - iedereen is geod geholpen met hun problemen, ik heb mijn problemen opgelost met de scoll 
+  en een goed begin gemaakt met de footer. Daarnaast heb ik erg veel gehad aan hoe de andere zijn geholpen met de dingen waarbij zij al verder zijn
+  en ik nog aan moet beginnnen.
 
 </details>
 
@@ -281,19 +281,25 @@ Alleen een vraag of mijn carousel, voor de rest gaat het wel goed.
   <summary>uitwerken voor eindgesprek</summary>
 
   ### Je uitkomst - karakteristiek screenshots:
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="uitomst opdracht 1">
+  Ik ben erg trots op het maken van de header, dark mode, animatie's, en de stijling  van de tweede pagina.
+  <img src="readme-images/header.png" width="375px" alt="uitomst opdracht 1">
+  <img src="readme-images/footer.png" width="375px" alt="uitomst opdracht 1">
+  <img src="readme-images/tweedepagina.png" width="375px" alt="uitomst opdracht 1">
+  <img src="readme-images/animatie.png" width="375px" alt="uitomst opdracht 1">
 
 
   ### Dit ging goed/Heb ik geleerd: 
   Korte omschrijving met plaatjes
 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="top">
+Ik ben het meest trots op het zelf uitvogelen van de dark mode
+  <img src="readme-images/geleerd.png" width="375px" alt="top">
 
 
   ### Dit was lastig/Is niet gelukt:
-  Korte omschrijving met plaatjes
+  Het is niet gelukt om het helemaal responsive te maken en ook niet om het hamburger menu te stijlen zoals ik wil.
 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="bummer">
+  <img src="readme-images/nietgelukt.png" width="375px" alt="bummer">
+  <img src="readme-images/nietgelukt2.png" width="375px" alt="bummer">
 </details>
 
 

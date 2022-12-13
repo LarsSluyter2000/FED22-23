@@ -9,8 +9,9 @@
 	<title>Howdy FED2223</title>
 
 	<link href="styles/style.css" rel="stylesheet">
+	<link rel="stylesheet" href="styles/algemencss.css">
 	<link rel="icon" type="image/svg+xml" href="images/logo.svg">
-	<link rel="stylesheet" href="https://use.typekit.net/byu7jmg.css">
+
 </head>
 
 <body>
@@ -53,9 +54,7 @@
 				<li><a href=”#”>
 						<img src="images/icons8-search-96.png" alt="logo-zoeken">
 					</a></li>
-				<li><a href=”#”>
-						<p>NL / $</p>
-					</a></li>
+
 				<li><a href=”#”>
 						<img src="images/icons8-shopping-bag-96.png" alt="logo-shopper">
 					</a></li>
@@ -66,12 +65,16 @@
 	<main>
 		<h1 class="screenreader"></h1>
 
+		<!-- contact boxje -->
+		<a class="contact" href="" alt="contact opnemen">neem contact op</a>
+		<a class="contactballetje" href="" alt="contact opnemen"></a>
+		
+		<!-- Carrousel home images -->
 		<section id="justBolletjes" class="caroCarrousel" aria-label="Voorbeeld met alleen bolletjes" tabIndex="-1">
-			<!-- de id kun je zelf een naam geven en geef je mee in de js -->
 			<ul>
 				<li id="element1">
 					<div>
-						<h2>BASKETS HEAVY COTTON </h2>
+						<h1>BASKETS HEAVY COTTON </h1>
 						<p>PERFECTE FIT VOOR HET SEIZOEN</p>
 						<a href="">ONTDEK BASKETS</a>
 					</div>
@@ -79,7 +82,7 @@
 				</li>
 				<li id="element2">
 					<div>
-						<h2>DISCOVER OURE LINE</h2>
+						<h1>DISCOVER OURE LINE</h1>
 						<p>100% KATOEN GESTIJLDE JAS</p>
 						<a href="">ONTDEK BASKETS</a>
 					</div>
@@ -87,7 +90,7 @@
 				</li>
 				<li id="element3">
 					<div>
-						<h2>ADIDAS X RAF SIMONS</h2>
+						<h1>ADIDAS X RAF SIMONS</h1>
 						<p>DE NIEUWE LIJN VAN RAF</p>
 						<a href="">BEKIJK HIER</a>
 					</div>
@@ -104,9 +107,9 @@
 			</nav>
 		</section>
 
+		<!-- Carrousel shopping images -->
 		<section id="fixedWithElements" class="caroCarrouselFixedWidthElements"
 			aria-label="Voorbeeld met drie naast elkaar" tabIndex="-1">
-			<!-- de id kun je zelf een naam geven en geef je mee in de js -->
 			<h2>NEW</h2>
 			<ul>
 				<li id="element4">
@@ -160,6 +163,8 @@
 				</ul>
 			</nav>
 		</section>
+
+		<!-- dubbele article foto's naast elkaar -->
 		<section>
 			<article>
 				<img src="images/headline-1-image.jpeg" alt="fotoschoen">
@@ -172,8 +177,11 @@
 				<p>shop now</p>
 			</article>
 		</section>
-		<h2>weekly inspiration</h2>
 
+		<!-- ingewikkelde stijling begreep ik niet anders -->
+		<h2 class="ingewikkeldeStijling">weekly inspiration</h2>
+
+		<!-- *scroll en Grid sectie -->
 		<section>
 			<img src="images/weekly-inspiration.jpeg" alt="foto ruben">
 			<ul>
@@ -211,6 +219,8 @@
 				</li>
 			</ul>
 		</section>
+
+		<!-- Laatste sectie  -->
 		<h2>latest features</h2>
 		<section>
 			<article>
@@ -229,7 +239,9 @@
 				<p>Draag de nieuwe lijn van Pumma</p>
 			</article>
 			<article>
-				<img src="images/image(11).jpg" alt="fotoruben">
+				<a href="pagina2.html">
+					<img src="images/image(11).jpg" alt="fotoruben">
+				</a>
 				<h3>BASKETS WINTER LOOKBOOK</h3>
 				<p>Kijk mee achter de schermen</p>
 			</article>
@@ -243,15 +255,87 @@
 			</ul>
 		</Section>
 	</main>
+
+	<!-- Footer -->
 	<footer>
-		<form action="">
-			<fieldset>
-				<legend>meld je aan voor onze nieuwsbrief</legend>
-				<label for="email">e-mail</label>
-				<input type="email" name="email" id="email" pattern=".+@gmail.com" required>
-			</fieldset>
-			<input type="submit" value="verzend" href="#">
-		</form>
+		<section>
+			<article>
+				<form action="">
+					<fieldset>
+						<legend>MELD JE AAN VOOR ONZE NIEUWSBRIEF</legend>
+						<p>Blijf op de hoogte voor het laatste nieuws en prodcut release. Vul je email in en we houden
+							je op de hoogte!
+						</p>
+						<input type="email" name="email" id="email" pattern=".+@gmail.com" required
+							placeholder="Email..">
+						<input type="submit" value="VERZENDEN" href="#">
+				</form>
+				</fieldset>
+				</form>
+			</article>
+		</section>
+		<section>
+			<article>
+				<h4>KLANTENSERVICE</h4>
+				<p>NEEM CONTACT OP</p>
+				<p>+31 (0) 20 851 38 88</p>
+				<p>Service@baskets-store.com</p>
+			</article>
+		</section>
+		<section>
+			<article>
+				<h4>BESCHIKBAARHEID</h4>
+				<p>Maandag - Donderdag 09:00 - 17:30</p>
+				<p>Vrijdag 09:00 - 17:00</p>
+				<p>Zaterdag en Zondag Gesloten</p>
+
+				<h4>BETALINGSMOGELIJKSHEDEN</h4>
+				<img src="images/mastercard.png" alt="">
+				<img src="images/mistercash.png" alt="">
+				<img src="images/visa.png" alt="">
+				<img src="images/kbc.png" alt="">
+				<img src="images/directebanking.png" alt="">
+				<img src="images/ideal.png" alt="">
+			</article>
+		</section>
+		<section>
+			<article>
+				<h4>KLANTENSERVICE</h4>
+				<p>SHIPPINGG & DELIVERY</p>
+				<p>RETOURNEREN</p>
+				<p>ORDERS</p>
+				<P>GIFTCARDS</P>
+
+				<h4>INFO</h4>
+				<P>VEELGESTELDE VRAGEN</P>
+				<P>TAX FREE WINKELEN</P>
+				<P>ALGEMENE VOORWAARDEN</P>
+				<P>PRIVACYBELEID</P>
+
+				<h4>BEDRIJF</h4>
+				<P>VACATURES</P>
+				<P>WINKELS</P>
+				<P>SUSTAINABILITY</P>
+				<P>SIZE GUIDE</P>
+			</article>
+		</section>
+		<section>
+			<article>
+				<h4>STORES</h4>
+
+				<h4>JORDAAN </h4>
+				<p>Elandsgracht 57</p>
+				<p>1016 TN Amsterdam</p>
+				<p>Netherlands</p>
+				<P>+31 (0) 20 622 8 133</P>
+
+				<h4>DE PIJP </AREA></h4>
+				<P>Gerard Doustraat 96</P>
+				<P>1072 VX Amsterdak</P>
+				<P>Netherlands</P>
+				<P>+31 (0) 20 470 1010</P>
+			</article>
+		</section>
 	</footer>
 
 	<script src="scripts/script.js"></script>

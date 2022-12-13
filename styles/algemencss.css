@@ -1,0 +1,522 @@
+/**************/
+/* CSS REMEDY */
+/**************/
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
+button,
+summary {
+    cursor: pointer;
+}
+
+/*********************/
+/* CUSTOM PROPERTIES */
+/*********************/
+:root {
+    /* startje */
+    font-family: neue-haas-grotesk-display, sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    --maxWidth: 32rem;
+    --bodyBackground:#ffffff;
+    --headerBackgroundcolor: #ffffff;
+    --tekstHeaderBackgroundcolor: #ffffff;
+    --kleurtekstheader:#000;
+
+    /* h en tekst */
+    --colorH2: #000000;
+    --colorH3: #000;
+    --colorH4:#000;
+    --colorP:#000;
+    --colorTekstPublishdate:rgb(165, 164, 164);
+    --colorTekstArticleP: rgba(0, 0, 0, 0.507);
+
+
+    /* neem contact op animatie */
+    --colorContact:#000;
+    --colorTekstContact:#ffffff;
+    --colorContactballetje:rgb(199, 5, 5);
+
+    --color-text: #111;
+    --color-background: #eee;
+
+    /* carrousel */
+    --caroCarrouselMainColor: #333;
+    --caroCarrouselShadeColor: #ddd9;
+    --backgroundMediaCarrousel:#ffffffaf;
+
+
+    /* weekly inspiration */
+    --colorSectionBlack: #000;
+    --colorAfter: white;
+    --colorBackgroundAfter:rgb(0, 0, 0);
+  
+
+    /* animatie */
+    --link-color:#5A685C;
+    --inverse-color:white;
+    --accent-color:rgb(255, 255, 255);
+
+    /* footer */
+    --backgroundColorFooter:#f7f2f2e1;
+    --backgroundColorFooter2:#f7f2f2e1;
+    --backgroundColorFooter3:#f7f2f2e1;
+    --legendtekst:#000;
+}
+
+.screenreader {
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    height: 1px;
+    overflow: hidden;
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+}
+
+body {
+    margin: 0;
+}
+main{
+    background: var(--bodyBackground);
+}
+h1 {
+    margin: 0;
+  }
+
+h2 {
+    margin-left: 0.65em;
+    color: var(--colorH2);
+  }
+h3{
+    color: var( --colorH3);
+}
+h4{
+    color:var(--colorH4);
+}
+p{
+    color:var( --colorP);
+}
+
+/* Header */
+header {
+    display: flex;
+    position: sticky;
+    top: 0;
+    z-index: 3;
+    background-color: var( --headerBackgroundcolor);
+}
+
+header button {
+    margin-right: 1em;
+    border: none;
+    background: none;
+}
+
+button img {
+    width: 2em;
+    height: 2em;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    width: 100vw;
+    align-items: center;
+    padding: 0.5em;
+}
+
+header ul:first-of-type {
+    font-family: neue-haas-grotesk-display, sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    margin: 0%;
+    padding: 0%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    grid-template-columns: repeat(3, 1fr);
+    background-color:var(--tekstHeaderBackgroundcolor);
+    z-index: 3;
+
+
+    transition: 1s;
+    transform: translatex(-100%);
+}
+
+header nav .open {
+    transform: translateX(0);
+}
+
+header nav ul:last-of-type {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+header nav ul li a {
+    color: var(--kleurtekstheader);
+    text-transform: uppercase;
+
+}
+/* hoverstate tekst */
+header nav ul li a:hover{
+    color: rgba(102, 100, 100, 0.774);
+
+}
+
+header nav ul li:nth-of-type(6) a {
+    color: rgb(230, 0, 0);
+    text-transform: uppercase;
+}
+
+
+
+header nav ul:nth-of-type(1) li a {
+    display: block;
+    padding: 2em;
+    border-bottom: solid 1px #000;
+}
+
+header nav ul:nth-of-type(2) li:nth-of-type(3) p {
+    font-size: 1em;
+    margin-top: 0.15em;
+}
+
+header div {
+    position: fixed;
+    inset: 0;
+    background-color: rgb(102 102 102 / .7);
+    opacity: 0;
+    pointer-events: none;
+    transition: .5s;
+}
+
+header div.open {
+    opacity: 1;
+    pointer-events: all;
+}
+
+header ul:last-of-type {
+    font-family: neue-haas-grotesk-display, sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    display: flex;
+    flex-direction: row;
+    gap: 0.25em;
+}
+
+header ul li a {
+    text-decoration: none;
+}
+
+header nav a img {
+    width: 7em;
+    margin-left: 1em;
+}
+
+header ul li img {
+    width: 1.5em;
+}
+
+.contact {
+    animation:neemContactop 4s;
+    animation-iteration-count: infinite;
+    display: flex;
+    position: fixed;
+    left: 83em;
+    top: 44em;
+    z-index: 3;
+    text-decoration: none;
+    padding: 1em;
+    border-radius: 0.5em;
+    background-color: var( --colorContact);
+    color: var(--colorTekstContact);
+    font-family: neue-haas-grotesk-display, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+
+.contactballetje {
+    animation:neemContactop 4s;
+    animation-iteration-count: infinite;
+    display: flex;
+    position: fixed;
+    left: 82.75em;
+    top: 43.75em;
+    z-index: 3;
+    text-decoration: none;
+    width: .8em;
+    height: .8em;
+    border-radius: 50%;
+    background-color: var(--colorContactballetje);
+}
+
+/* footer */
+
+footer {
+    background-color: var(--backgroundColorFooter);
+
+}
+
+footer section:nth-of-type(1) fieldset {
+    border: none;
+    border-bottom: 1px solid #d8d8d8;
+    ;
+}
+
+footer section:nth-of-type(1) fieldset legend {
+    padding-top: 4em;
+    font-size: 0.95em;
+    font-weight: bold;
+    color: var(--legendtekst);
+}
+
+footer section:nth-of-type(1) fieldset p {
+    font-size: 0.75em;
+}
+
+footer section:nth-of-type(1) fieldset input[type=submit] {
+    width: 9em;
+    margin:0;
+    background-color: #000000;
+    color: white;
+    padding: 12px 20px;
+    margin: 8px 0;
+    margin-left: 0.75em;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+footer section:nth-of-type(1) fieldset input[type=submit]:active {
+    width: 9em;
+    background-color: #000000;
+    color: rgb(151, 36, 36);
+}
+
+footer section:nth-of-type(1) fieldset input[type=email] {
+    width: 25em;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+
+footer {
+    display: flex;
+    flex-direction: column;
+}
+
+footer section:nth-of-type(2) article {
+    margin: 1em;
+}
+
+footer section:nth-of-type(2) article h4 {
+    font-size: 0.95em;
+}
+
+footer section:nth-of-type(2) article p {
+    font-size: 0.75em;
+}
+
+footer section:nth-of-type(2) article p:first-of-type {
+    font-size: 0.75em;
+    font-weight: bold;
+}
+
+footer section:nth-of-type(3) article p {
+    font-size: 0.75em;
+}
+
+footer section {
+    padding: 0em;
+}
+
+footer section:nth-of-type(3) {
+    margin: 0;
+    margin-left: 1em;
+}
+
+footer section:nth-of-type(3) img {
+    width: 3.5em;
+    height: 2em;
+}
+
+footer section:nth-of-type(4) {
+    background-color: var(--backgroundColorFooter2);
+}
+
+footer section:nth-of-type(4) article {
+    margin: 0em;
+    margin-left: 1em;
+}
+
+footer section:nth-of-type(4) article h4 {
+    font-size: 0.95em;
+}
+
+footer section:nth-of-type(4) article p {
+    font-size: 0.75em;
+}
+
+footer section:last-of-type {
+    background-color: var(--backgroundColorFooter3);
+    margin-left: 1em;
+}
+
+footer section:last-of-type article {
+    margin: 0em;
+}
+
+footer section:last-of-type article h4 {
+    font-size: 0.95em;
+}
+
+footer section:last-of-type article h4:first-of-type {
+    font-size: 1.5em;
+    padding: 0;
+}
+
+footer section:last-of-type article p {
+    font-size: 0.75em;
+}
+
+/* media */
+
+@media (max-width:500px) {
+    .contact {
+        left: 20em;
+        top: 44em;
+    }
+
+    .contactballetje {
+        left: 19.75em;
+        top: 43.75em;
+
+    }
+}
+
+@media (min-width:75em) {
+    header button{
+      display: none;
+    }
+    header ul:first-of-type{
+      transform:translateX(0);
+      position: relative;
+      flex-direction: row;
+      gap: 2em;
+      font-size: 0.85em;
+      margin-right: 25em;
+  
+    }
+    header nav ul:first-of-type li a{
+      padding:0;
+      border:none;
+    
+    }
+  
+    footer {
+      display: flex; /* Hierdoor staan ze nu naast elkaar */
+      flex-direction: row; /* Voor het onderelkaar zetten */
+    }
+    footer section:nth-of-type(2){
+      margin-top: 3em;
+    }
+  
+    footer section:nth-of-type(3){
+      margin: 2em;
+    }
+    footer section:nth-of-type(4) {
+      background-color: var(--backgroundColorFooter2);
+      flex-wrap: wrap;
+    }
+    footer section:last-of-type{
+      display: flex;
+      margin:1em;
+      background-color: var(--backgroundColorFooter3);
+      
+    }
+    footer section:last-of-type article {
+      margin: 0em;
+      padding-right: 2em;
+    }
+    footer section:last-of-type article h4 {
+      font-size: 0.95em;
+      margin-top: 0.25em;
+      margin-bottom: 1em;
+      
+    }
+    
+    footer section:last-of-type article h4:first-of-type {
+      font-size: 1em;
+      padding: 0;
+    }
+  }
+  @keyframes neemContactop{
+      from{
+        transform: translateY(0);
+      }
+      50%{
+          transform: translateY(-0.5rem);
+      }
+      to{
+        transform: translateY(0)
+      }
+  }
+  
+  @media (prefers-color-scheme: dark) {
+    :root {
+        /* header en body */
+        --bodyBackground:#252525;
+        --headerBackgroundcolor: #252525;
+        --tekstHeaderBackgroundcolor: #252525;
+        --kleurtekstheader:#ffffff;
+
+        /* h2 en tekst */
+        --colorH2: #ffffff;
+        --colorH3: rgb(255, 255, 255);
+        --colorH4: #ffffff;
+        --colorP:rgb(255, 255, 255);
+        --colorTekstArticleP: rgba(255, 255, 255, 0.507);
+
+
+        /* contact me */
+        --colorContact:rgb(229, 226, 226);
+        --colorTekstContact:#000000;
+
+        /* weekly inspiration */
+        --colorSectionBlack: rgb(255, 255, 255);
+        --colorAfter: rgb(0, 0, 0);
+        --colorBackgroundAfter:rgb(255, 255, 255);
+
+        /* footer */
+        --backgroundColorFooter:#252525;
+        --backgroundColorFooter2:#252525;
+        --backgroundColorFooter3:#252525;
+        --legendtekst:#ffffff;
+        
+
+      --caroCarrouselMainColor: #ccc;
+      --caroCarrouselShadeColor: #4449;
+      
+    }
+    .caroCarrousel>ul li div h1 {
+        background-color: var(--backgroundMediaCarrousel);
+    }
+    .caroCarrousel>ul li div p {
+        background-color: var(--backgroundMediaCarrousel);
+    }
+
+    
+}
