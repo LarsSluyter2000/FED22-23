@@ -312,8 +312,10 @@ Ik ben het meest trots op het zelf uitvogelen van de dark mode
 
   Nb. Wees specifiek ('css-tricks' als bron is bijv. niet specifiek genoeg).
 
-  1. bron 1
-  2. bron 2
-  3. ...
+  1. https://codepen.io/shooft/pen/qBogPoM - Het maken van mijn H2 hover animatie.
+  2. https://www.youtube.com/watch?v=HZHHBwzmJLk - Het maken van mijn animatie (Neem contact op.)
+  3. https://zellwk.com/blog/style-hover-focus-active-states/ - Het maken van mijn states.
+  4. https://codepen.io/shooft/live/MWVMQod - oefenen met darkmode.
+  5. Dlo - codepen - carousel (link kan ik niet meer vinden.. ) - Hiervan heb ik de codes gepakt om op mijn eigen pagina een carrousel te krijgen.
 
 </details>
