@@ -40,11 +40,10 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   #### Screenshot(s) van de eerste pagina (small screen): 
   Homepage
-  <img src="readme-images/homepage1.jpg" width="375px" alt="omschrijving van de pagina">
-  <img src="readme-images/homepage2.jpg" width="375px" alt="omschrijving van de pagina">
+  <img src="readme-images/homepage.png" width="375px" alt="omschrijving van de pagina">
   #### Screenshot(s) van de tweede pagina (small screen):
   Detailpagina
-  <img src="readme-images/detailpagina.jpg" width="375px" alt="omschrijving van de pagina">
+ <img src="readme-images/tweedepagina2.png" width="375px" alt="omschrijving van de pagina">
  
 </details>
 
@@ -85,7 +84,7 @@ Met verwarring/verandering in mijn motoriek dmv de schrokband en/of de andere mo
   <summary>uitwerken na afloop 2e werkgroep</summary>
 
   ### de hele pagina: 
-  <img src="readme-images/homepage1.png" width="375px" alt="breakdown van de hele pagina">
+  <img src="readme-images/schets.png" width="375px" alt="breakdown van de hele pagina">
 
   ### dynamisch deel (bijv menu): 
   <img src="readme-images/homepage2.png" width="375px" alt="breakdown van een dynamisch deel">
